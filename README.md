@@ -18,3 +18,12 @@ Compute a covariance matrix with PCAngsd (https://github.com/Rosemeis/pcangsd)
 ```
 ./pcangsd_hwe.sh Anchovy_data Anchovy_PCA 2
 ````
+
+b) Estimate Admixture proportions with NGSAdmix (http://www.popgen.dk/software/index.php/NgsAdmix)
+
+```
+screen -S NGSadmix
+````
+```
+./ngsadmix.sh Anchovy_data Anchovy_Admixture 2 10 2 1>./Anchovy_Admixture/ngsadmix.err 2>./Anchovy_Admixture/ngsadmix.log
+````
