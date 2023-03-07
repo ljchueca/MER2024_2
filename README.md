@@ -4,8 +4,11 @@ Material for Master Course MER2023
 
   
 ```
-https://we.tl/t-e8j3Jmyl9s
-
+interactive -n 2 -p vfast -r mer03
 ````
 
+```
+module laod BCFtools/1.15.1-GCC-11.3.0
+````
 
+PCAngsd
