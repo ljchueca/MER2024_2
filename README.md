@@ -1,5 +1,5 @@
-# MER2023_2
-Material for Master Course MER2023
+# MER2024_2
+Material for Master Course MER2024
 
 
 Load an interactive mode in Arina cluster
