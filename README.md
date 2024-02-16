@@ -4,7 +4,7 @@ Material for Master Course MER2024
 
 Load an interactive mode in Arina cluster
 ```
-interactive -n 2 -p vfast -r mer03
+interactive -n 4 -p vfast -r mer3
 ````
 
 Load necesary modules
