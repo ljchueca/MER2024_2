@@ -10,6 +10,8 @@ interactive -n 4 -p vfast -r mer3
 Load necesary modules
 ```
 module load BCFtools/1.15.1-GCC-11.3.0
+
+module load Python/3.10.4-GCCcore-11.3.0
 ````
 a) Conduct a PCA from of unlinked SNPs from 50 anchovy specimens
 
