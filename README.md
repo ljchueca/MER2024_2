@@ -16,7 +16,7 @@ a) Conduct a PCA from of unlinked SNPs from 50 anchovy specimens
 Compute a covariance matrix with PCAngsd (https://github.com/Rosemeis/pcangsd)
 
 ```
-./pcangsd_hwe.sh Anchovy_data Anchovy_PCA 2
+./pcangsd_hwe.sh Anchovy_data Anchovy_PCA 4
 ````
 
 b) Estimate Admixture proportions with NGSAdmix (http://www.popgen.dk/software/index.php/NgsAdmix)
@@ -25,5 +25,5 @@ b) Estimate Admixture proportions with NGSAdmix (http://www.popgen.dk/software/i
 screen -S NGSadmix
 ````
 ```
-./ngsadmix.sh Anchovy_data Anchovy_Admixture 2 10 2 1>./Anchovy_Admixture/ngsadmix.err 2>./Anchovy_Admixture/ngsadmix.log
+./ngsadmix.sh Anchovy_data Anchovy_Admixture 2 10 4 1>./Anchovy_Admixture/ngsadmix.err 2>./Anchovy_Admixture/ngsadmix.log
 ````
